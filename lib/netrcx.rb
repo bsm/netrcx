@@ -23,7 +23,7 @@ class Netrcx
   end
 
   # Read from a file path.
-  def self.read(path=self.class.default_path)
+  def self.read(path=default_path)
     File.open(path) {|io| new(io) }
   end
 

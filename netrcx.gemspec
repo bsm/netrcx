@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'netrcx'
-  s.version       = '0.2.0'
+  s.version       = '0.2.1'
   s.authors       = ['Black Square Media Ltd']
   s.email         = ['info@blacksquaremedia.com']
   s.summary       = %(Simple .netrc parser)
