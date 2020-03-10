@@ -23,7 +23,7 @@ class Netrcx
   end
 
   # Read from a file path.
-  def self.read(path=default_path)
+  def self.read(path = default_path)
     File.open(path) {|io| new(io) }
   end
 
@@ -40,7 +40,7 @@ class Netrcx
 
         if word == 'default'
           @entries.push(current) if current
-          current  = Entry.new(default: true)
+          current = Entry.new(default: true)
         elsif word == 'machine'
           @entries.push(current) if current
           current = Entry.new(default: false)

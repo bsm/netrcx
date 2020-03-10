@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'netrcx'
-  s.version       = '0.2.1'
+  s.version       = '0.3.0'
   s.authors       = ['Black Square Media Ltd']
   s.email         = ['info@blacksquaremedia.com']
   s.summary       = %(Simple .netrc parser)
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files -z`.split("\x0").reject {|f| f.match(%r{^spec/}) }
   s.test_files    = `git ls-files -z -- spec/*`.split("\x0")
   s.require_paths = ['lib']
-  s.required_ruby_version = '>= 2.4'
+  s.required_ruby_version = '>= 2.5'
 
   s.add_development_dependency 'bundler'
   s.add_development_dependency 'rake'
